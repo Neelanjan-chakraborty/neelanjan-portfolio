@@ -1,0 +1,17 @@
+---
+import Section from "../Section.astro";
+
+import { basics } from "@cv";
+const { summary,resume } = basics;
+---
+
+<Section title="About">
+	<p>
+		{summary}
+	</p>
+		<div class="mt-4 flex justify-center">
+		<a href={resume} download="Neelanjan-Resume.pdf" class="bg-skin-button-accent/20 border-skin-hue/20 text-skin-hue print:p-0 print:bg-transparent print:text-zinc-800 flex gap-1 items-center border-solid print:border-none border rounded-md px-4 py-2 text-xs">
+			Download Resume
+		</a>
+	</div>
+</Section>

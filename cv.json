@@ -1,0 +1,496 @@
+{
+  "basics": {
+    "name": "Neelanjan Chakraborty",
+    "label": "Junior Full Stack Developer",
+    "image": "src/thumnails/avatar.png",
+    "email": "neelanjanchakraborty231@gmail.com",
+    "phone": "+91 8617352997",
+    "url": "https://johndoe.dev",
+    "summary": "Junior Full Stack Developer with a strong foundation in Computer Science, specializing in Machine Learning and Data Science. Passionate about building innovative solutions and continuously advancing my skills.",
+    "theme": "blue",
+    "resume": "src/pages/Resume-Neelanjan Chakraborty.pdf",
+    "location": {
+      "address": "Kharagpur, West Bengal",
+      "postalCode": "721301",
+      "city": "Kharagpur",
+      "countryCode": "IN",
+      "region": "West Bengal"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "neelanjanchakraborty",
+        "url": "https://linkedin.com/in/neelanjanchakraborty"
+      },
+      {
+        "network": "X",
+        "username": "neelanjanchakraborty",
+        "url": "https://x.com/neelanjanchakraborty"
+      },
+      {
+        "network": "GitHub",
+        "username": "neelanjanchakraborty",
+        "url": "https://github.com/Neelanjan-chakraborty"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "GRACYWOODS GAMES",
+      "position": "Generative AI Intern + 3D Character Animator",
+      "location_type": "Remote",
+      "location": "Hongkong (SAR)",
+      "url": "https://www.gracywoodsgames.com/",
+      "startDate": "2024-03-01",
+      "endDate": "2024-07-01",
+      "summary": "Leveraged Generative AI Tools and optimized data pipelines for game development.",
+      "highlights": [
+        "Leveraged Generative AI tools like Stable Diffusion, Automatic 1111, Comfy UI, saving 50% time on graphic design.",
+        "Optimized data pipelines, reducing processing time by 30% for Unreal Engine and AWS services like Game Lift, S3, Lambda."
+      ],
+      "responsibilities": [
+        "Designed a 10K parameter NLP model for text generation and integrated it into an in-game dialogue system.",
+        "Created and maintained a dataset of 100+ 3D FBX animations and trained a CNN model for game development."
+      ],
+      "skills": [
+        "Stable Diffusion",
+        "NLP",
+        "Unreal Engine",
+        "AWS"
+      ]
+    },
+    {
+      "name": "HYSCALER",
+      "position": "Junior Software Developer",
+      "location_type": "On site",
+      "location": "Bhubaneswar, Odisha",
+      "url": "https://hyscaler.com",
+      "startDate": "2023-09-01",
+      "endDate": "2024-06-01",
+      "summary": "Enhanced web applications and led software projects, driving innovation and improving efficiency.",
+      "highlights": [
+        "Enhanced web apps using PHP, Laravel, Vue.js, Tailwind CSS, and PostgreSQL, achieving a 20% increase in functionality, speed, and data management.",
+        "Drove the delivery of 10 scalable software projects on time, resulting in a 25% improvement in team efficiency."
+      ],
+      "responsibilities": [
+        "Mastered new technologies including Ruby, Astro, and Next.js, driving innovation.",
+        "Upgraded 5 legacy systems, reducing maintenance costs by 30% and improving performance with a modern tech stack."
+      ],
+      "skills": [
+        "PHP",
+        "Laravel",
+        "Vue.js",
+        "Ruby",
+        "Next.js"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "CENTURION UNIVERSITY OF TECHNOLOGY AND MANAGEMENT",
+      "url": "https://cutm.ac.in",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2019-06-01",
+      "endDate": "2023-12-01",
+      "score": "8.9/10.0",
+      "courses": [
+        "Data Analysis & Visualization",
+        "Image Processing",
+        "Database Management",
+        "Algorithms",
+        "Artificial Intelligence"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Statistical Analysis",
+      "level": "Proficient",
+      "keywords": [
+        "Hypothesis Testing",
+        "ANOVA",
+        "Regression",
+        "Bayesian Methods"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Familiar",
+      "keywords": [
+        "Linear Regression",
+        "Decision Trees",
+        "K-Means Clustering",
+        "Neural Networks"
+      ]
+    },
+    {
+      "name": "Data Manipulation",
+      "level": "Skilled",
+      "keywords": [
+        "Pandas",
+        "NumPy",
+        "Large Datasets"
+      ]
+    },
+    {
+      "name": "Data Visualization",
+      "level": "Proficient",
+      "keywords": [
+        "Power BI",
+        "Matplotlib",
+        "Plotly",
+        "Seaborn",
+        "Tableau"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Proficient",
+      "keywords": [
+        "Python",
+        "Scikit-learn",
+        "TensorFlow",
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "Collaboration",
+      "level": "Experienced",
+      "keywords": [
+        "Agile",
+        "Jira",
+        "Trello",
+        "Slack",
+        "MS Teams"
+      ]
+    },
+    {
+      "name": "Continuous Learning",
+      "level": "Dedicated",
+      "keywords": [
+        "MOOCs",
+        "Conferences",
+        "Journals"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "VIRTUAL-TRYON",
+      "isActive": true,
+      "description": "A browser extension using Hugging Face API for virtual garment try-ons.",
+      "highlights": [
+        "Increased customer engagement by 20%"
+      ],
+      "url": "https://virtualtryon.com",
+      "thumbnail": "src/thumnails/tryon.jpeg",
+      "technologies": ["JavaScript", "Hugging Face API"]
+    },
+    {
+      "name": "AUTOLINKED",
+      "isActive": true,
+      "description": "Automated LinkedIn tasks via Gemini API, streamlining posts, comments, and connections.",
+      "highlights": [
+        "Saved 30% in time"
+      ],
+      "url": "https://autolinked.com",
+      "thumbnail": "src/thumnails/autolinked.jpeg",
+      "technologies": ["Python", "Flask", "JavaScript"]
+  
+    },
+    {
+      "name": "MOOD-MUSE",
+      "isActive": true,
+      "description": "Developed an AI song recommendation model with Meta API, tailoring music based on mood detection.",
+      "highlights": [
+        "Enhanced user satisfaction through personalized music recommendations"
+      ],
+      "url": "https://moodmuse.com",
+      "thumbnail": "src/thumnails/moodmuse.jpeg",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+  
+    },
+    {
+      "name": "TOUCH-GRASS",
+      "isActive": true,
+      "description": "A student app using Flutter & Gemini API, optimizing study schedules.",
+      "highlights": [
+        "Enhanced efficiency by 20%"
+      ],
+      "url": "https://touchgrass.com",
+      "thumbnail": "src/thumnails/touchgrass.jpeg",
+      "technologies": ["Flutter", "Dart"]
+    }
+  ],
+    "certificates": [
+      {
+        "name": "Oracle Cloud Infrastructure 2024 Certified AI Foundations Associate",
+        "date": "2024-08-01",
+        "issuer": "Oracle",
+        "credential_id": "100770354OCI24AICFA",
+        "url": "https://oracle.com",
+        "skills": ["Generative AI Tools", "Generative AI Studio", "Deep Learning"],
+        "logo": "src/thumnails/logos/oracle_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/ocfa2024.png"
+      },
+      {
+        "name": "Academy Accreditation - Databricks Fundamentals",
+        "date": "2024-08-01",
+        "issuer": "Databricks",
+        "credential_id": "111239922",
+        "url": "https://databricks.com",
+        "skills": ["Big Data", "Big Data Analytics", "Data Analysis", "Data Modeling", "Data Mining", "Data Engineering", "Data Science", "Data Visualization", "Data Warehousing", "Statistical Data Analysis"],
+        "logo": "src/thumnails/logos/databricks_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/dadf.png"
+      },
+      {
+        "name": "Academy Accreditation - Databricks Lakehouse Fundamentals",
+        "date": "2024-08-01",
+        "issuer": "Databricks",
+        "credential_id": "111237539",
+        "url": "https://databricks.com",
+        "skills": ["Analytical Skills", "Artificial Intelligence (AI)", "Big Data Analytics", "Data Engineering", "Data Science", "Data Warehousing", "Deep Learning"],
+        "logo": "src/thumnails/logos/databricks_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/dalf.png"
+      },
+      {
+        "name": "Accenture North America Data Analytics and Visualization Completion Certificate",
+        "date": "2024-08-01",
+        "issuer": "Accenture",
+        "credential_id": "PHkPawTNJoN6piwGz",
+        "url": "https://accenture.com",
+        "skills": ["Data Visualization", "Data Analysis"],
+        "logo": "src/thumnails/logos/accenture_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/accenture.png"
+      },
+      {
+        "name": "Databricks Accredited Generative AI Fundamentals",
+        "date": "2024-08-01",
+        "issuer": "Databricks",
+        "credential_id": "111300045",
+        "url": "https://databricks.com",
+        "skills": ["Generative AI Tools", "Data Analysis", "Data Science"],
+        "logo": "src/thumnails/logos/databricks_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/dagaif.png"
+      },
+      {
+        "name": "Deloitte Australia Technology Completion Certificate",
+        "date": "2024-08-01",
+        "issuer": "Deloitte",
+        "credential_id": "E4NqCXRCLmuPCsYGq",
+        "url": "https://deloitte.com",
+        "skills": ["Data Modeling", "Data Science"],
+        "logo": "src/thumnails/logos/deloitte_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/deloitte.png"
+      },
+      {
+        "name": "Fundamentals of the Databricks Lakehouse Platform Accreditation",
+        "date": "2024-08-01",
+        "issuer": "Databricks",
+        "credential_id": "1321_3_748937_1722804232",
+        "url": "https://databricks.com",
+        "skills": ["Data Warehousing", "Big Data", "Big Data Analytics", "Data Modeling", "Statistical Data Analysis"],
+        "logo": "src/thumnails/logos/databricks_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/dalf.png"
+      },
+      {
+        "name": "Oracle Cloud Infrastructure 2023 AI Certified Foundations Associate",
+        "date": "2024-08-01",
+        "issuer": "Oracle",
+        "credential_id": "100770354OCI23AIFCA",
+        "url": "https://oracle.com",
+        "skills": ["Big Data", "Big Data Analytics", "Data Science"],
+        "logo": "src/thumnails/logos/oracle_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/ocfa.png"
+      },
+      {
+        "name": "Oracle Cloud Infrastructure 2023 Certified Foundations Associate",
+        "date": "2024-08-01",
+        "issuer": "Oracle",
+        "credential_id": "100770354OCIF2023CA",
+        "url": "https://oracle.com",
+        "skills": ["Big Data", "Data Science", "Data Warehousing"],
+        "logo": "src/thumnails/logos/oracle_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/ocfa2023.png"
+      },
+      {
+        "name": "Oracle Cloud Infrastructure 2024 Certified Foundations Associate",
+        "date": "2024-08-01",
+        "issuer": "Oracle",
+        "credential_id": "100770354OCI2024FNDCFA",
+        "url": "https://oracle.com",
+        "skills": ["Big Data", "Big Data Analytics", "Data Warehousing"],
+        "logo": "src/thumnails/logos/oracle_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/ocfa2024.png"
+      },
+      {
+        "name": "PwC Switzerland - Power BI Course Completion Certificate",
+        "date": "2024-08-01",
+        "issuer": "PwC",
+        "credential_id": "eM6dniNiP5B3yv2pe",
+        "url": "https://pwc.com",
+        "skills": ["Data Visualization", "Microsoft Power BI"],
+        "logo": "src/thumnails/logos/pwc_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/pwc.png"
+      },
+      {
+        "name": "Convolutional Neural Networks in TensorFlow",
+        "date": "2023-11-01",
+        "issuer": "DeepLearning.AI",
+        "credential_id": "9CRR8MJRKME6",
+        "url": "https://coursera.org",
+        "skills": ["Convolutional Neural Networks", "Image Classification", "Transfer Learning"],
+        "logo": "src/thumnails/logos/deeplearningai_logo.png",
+        "thumbnail": "src/thumnails/Certificates/tensorflow.png"
+      },
+      {
+        "name": "LinkedIn Certified Marketing Insider",
+        "date": "2023-08-01",
+        "issuer": "LinkedIn",
+        "credential_id": "edg3gocvdaek",
+        "url": "https://linkedin.com",
+        "skills": ["Marketing", "Social Media Marketing", "Digital Marketing", "Market Analysis"],
+        "logo": "src/thumnails/logos/linkedin_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/cmf.png"
+      },
+      {
+        "name": "LinkedIn Content and Creative Design",
+        "date": "2023-08-01",
+        "issuer": "LinkedIn",
+        "credential_id": "52g6j9ikm6vr",
+        "url": "https://linkedin.com",
+        "skills": ["Content Creation", "Creative Design"],
+        "logo": "src/thumnails/logos/linkedin_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/lccd.png"
+      },
+      {
+        "name": "LinkedIn Marketing Solutions Fundamentals",
+        "date": "2023-08-01",
+        "issuer": "LinkedIn",
+        "credential_id": "qn68ju5snjds",
+        "url": "https://linkedin.com",
+        "skills": ["Marketing Solutions", "Marketing Fundamentals"],
+        "logo": "src/thumnails/logos/linkedin_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/lmf.png"
+      },
+      {
+        "name": "LinkedIn Marketing Strategy",
+        "date": "2023-08-01",
+        "issuer": "LinkedIn",
+        "credential_id": "3cqbuynghxwx",
+        "url": "https://linkedin.com",
+        "skills": ["Marketing Strategy"],
+        "logo": "src/thumnails/logos/linkedin_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/lms.png"
+      },
+      {
+        "name": "Build a Data Science Web App with Streamlit and Python",
+        "date": "2023-06-01",
+        "issuer": "Coursera",
+        "credential_id": "3WH6EF3SF7ZX",
+        "url": "https://coursera.org",
+        "skills": ["Data Science", "Plotly", "Data Visualization", "Pandas", "Streamlit", "NumPy", "Pydeck"],
+        "logo": "src/thumnails/logos/coursera_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/coursera_streamlit.png"
+      },
+      {
+        "name": "Machine Learning with Python",
+        "date": "2023-06-01",
+        "issuer": "Coursera",
+        "url": "https://coursera.org",
+        "skills": ["Data Science", "Scikit-Learn", "Linear Regression", "Classification", "SciPy", "Machine Learning", "Clustering"],
+        "logo": "src/thumnails/logos/coursera_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/ML_with_IBM.png"
+      },
+      {
+        "name": "Tata Virtual Internship Program: Data Visualization: Empowering Business with Effective Insights",
+        "date": "2023-06-01",
+        "issuer": "Tata Technologies",
+        "credential_id": "9E3EkntW6xYYXTBLAC",
+        "url": "https://tatatechnologies.com",
+        "skills": ["Data Visualization", "Tableau", "Data Analysis", "Statistical Data Analysis", "Analytical Skills", "Data Mining", "Microsoft Power BI"],
+        "logo": "src/thumnails/logos/tata_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/TCS.png"
+      },
+      {
+        "name": "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
+        "date": "2023-05-01",
+        "issuer": "DeepLearning.AI",
+        "credential_id": "M8LX58P5LC8G",
+        "url": "https://coursera.org",
+        "skills": ["Data Engineering", "Deep Learning", "Data Science", "SciPy", "Scikit-Learn", "Artificial Intelligence (AI)", "Machine Learning", "NumPy", "Data Mining", "PySpark"],
+        "logo": "src/thumnails/logos/deeplearningai_logo.png",
+        "thumbnail": "src/thumnails/Certificates/DL_DLAI.jpeg"
+      },
+      {
+        "name": "JPMorgan Chase & Co Virtual Internship Program",
+        "date": "2023-05-01",
+        "issuer": "JPMorgan Chase",
+        "credential_id": "oHbfNbEZWZFKMnAaL",
+        "url": "https://jpmorganchase.com",
+        "skills": ["Data Analysis", "Data Visualization"],
+        "logo": "src/thumnails/logos/jpmorgan_logo.svg",
+        "thumbnail": "src/thumnails/Certificates/jpmorgan.png"
+      }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Bengali",
+      "fluency": "Native"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native"
+    },
+    {
+      "language": "Odiya",
+      "fluency": "Conversational"
+    },
+    {
+      "language": "Nepali",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Painting",
+      "keywords": [
+        "Watercolor",
+        "Acrylic"
+      ]
+    },
+    {
+      "name": "AI News",
+      "keywords": [
+        "Machine Learning",
+        "Neural Networks"
+      ]
+    },
+    {
+      "name": "Exploring Datasets",
+      "keywords": [
+        "Kaggle",
+        "Data Analysis"
+      ]
+    },
+    {
+      "name": "Hackathons",
+      "keywords": [
+        "Coding",
+        "Innovation"
+      ]
+    },
+    {
+      "name": "Cycling",
+      "keywords": [
+        "Fitness",
+        "Endurance"
+      ]
+    }
+  ]
+}
