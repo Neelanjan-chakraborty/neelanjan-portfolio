@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+Allow: /
+
+Sitemap: https://neelanjanchakraborty.in/sitemap-0.xml
+Sitemap: https://neelanjanchakraborty.in/sitemap-index.xml
