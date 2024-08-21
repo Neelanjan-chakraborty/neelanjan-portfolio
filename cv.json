@@ -2,7 +2,7 @@
   "basics": {
     "name": "Neelanjan Chakraborty",
     "label": "Junior Full Stack Developer",
-    "image": "/thumnails/avatar.png",
+    "image": "/thumnails/avatar.webp",
     "email": "neelanjanchakraborty231@gmail.com",
     "phone": "+91 8617352997",
     "url": "https://johndoe.dev",
@@ -184,7 +184,7 @@
         "Increased customer engagement by 20%"
       ],
       "url": "https://virtualtryon.com",
-      "thumbnail": "/thumnails/tryon.jpeg",
+      "thumbnail": "/thumnails/tryon.webp",
       "technologies": ["JavaScript", "Hugging Face API"]
     },
     {
@@ -195,7 +195,7 @@
         "Saved 30% in time"
       ],
       "url": "https://autolinked.com",
-      "thumbnail": "/thumnails/autolinked.jpeg",
+      "thumbnail": "/thumnails/autolinked.webp",
       "technologies": ["Python", "Flask", "JavaScript"]
   
     },
@@ -207,7 +207,7 @@
         "Enhanced user satisfaction through personalized music recommendations"
       ],
       "url": "https://moodmuse.com",
-      "thumbnail": "/thumnails/moodmuse.jpeg",
+      "thumbnail": "/thumnails/moodmuse.webp",
       "technologies": ["HTML", "CSS", "JavaScript"]
   
     },
@@ -219,7 +219,7 @@
         "Enhanced efficiency by 20%"
       ],
       "url": "https://touchgrass.com",
-      "thumbnail": "/thumnails/touchgrass.jpeg",
+      "thumbnail": "/thumnails/touchgrass.webp",
       "technologies": ["Flutter", "Dart"]
     }
   ],
@@ -232,7 +232,7 @@
         "url": "https://oracle.com",
         "skills": ["Generative AI Tools", "Generative AI Studio", "Deep Learning"],
         "logo": "/thumnails/logos/oracle_logo.svg",
-        "thumbnail": "/thumnails/Certificates/ocfa2024.png"
+        "thumbnail": "/thumnails/Certificates/ocfa2024.webp"
       },
       {
         "name": "Academy Accreditation - Databricks Fundamentals",
@@ -242,7 +242,7 @@
         "url": "https://databricks.com",
         "skills": ["Big Data", "Big Data Analytics", "Data Analysis", "Data Modeling", "Data Mining", "Data Engineering", "Data Science", "Data Visualization", "Data Warehousing", "Statistical Data Analysis"],
         "logo": "/thumnails/logos/databricks_logo.svg",
-        "thumbnail": "/thumnails/Certificates/dadf.png"
+        "thumbnail": "/thumnails/Certificates/dadf.webp"
       },
       {
         "name": "Academy Accreditation - Databricks Lakehouse Fundamentals",
@@ -252,7 +252,7 @@
         "url": "https://databricks.com",
         "skills": ["Analytical Skills", "Artificial Intelligence (AI)", "Big Data Analytics", "Data Engineering", "Data Science", "Data Warehousing", "Deep Learning"],
         "logo": "/thumnails/logos/databricks_logo.svg",
-        "thumbnail": "/thumnails/Certificates/dalf.png"
+        "thumbnail": "/thumnails/Certificates/dalf.webp"
       },
       {
         "name": "Accenture North America Data Analytics and Visualization Completion Certificate",
@@ -262,7 +262,7 @@
         "url": "https://accenture.com",
         "skills": ["Data Visualization", "Data Analysis"],
         "logo": "/thumnails/logos/accenture_logo.svg",
-        "thumbnail": "/thumnails/Certificates/accenture.png"
+        "thumbnail": "/thumnails/Certificates/accenture.webp"
       },
       {
         "name": "Databricks Accredited Generative AI Fundamentals",
@@ -272,7 +272,7 @@
         "url": "https://databricks.com",
         "skills": ["Generative AI Tools", "Data Analysis", "Data Science"],
         "logo": "/thumnails/logos/databricks_logo.svg",
-        "thumbnail": "/thumnails/Certificates/dagaif.png"
+        "thumbnail": "/thumnails/Certificates/dagaif.webp"
       },
       {
         "name": "Deloitte Australia Technology Completion Certificate",
@@ -282,7 +282,7 @@
         "url": "https://deloitte.com",
         "skills": ["Data Modeling", "Data Science"],
         "logo": "/thumnails/logos/deloitte_logo.svg",
-        "thumbnail": "/thumnails/Certificates/deloitte.png"
+        "thumbnail": "/thumnails/Certificates/deloitte.webp"
       },
       {
         "name": "Fundamentals of the Databricks Lakehouse Platform Accreditation",
@@ -292,7 +292,7 @@
         "url": "https://databricks.com",
         "skills": ["Data Warehousing", "Big Data", "Big Data Analytics", "Data Modeling", "Statistical Data Analysis"],
         "logo": "/thumnails/logos/databricks_logo.svg",
-        "thumbnail": "/thumnails/Certificates/dalf.png"
+        "thumbnail": "/thumnails/Certificates/dalf.webp"
       },
       {
         "name": "Oracle Cloud Infrastructure 2023 AI Certified Foundations Associate",
@@ -302,7 +302,7 @@
         "url": "https://oracle.com",
         "skills": ["Big Data", "Big Data Analytics", "Data Science"],
         "logo": "/thumnails/logos/oracle_logo.svg",
-        "thumbnail": "/thumnails/Certificates/ocfa.png"
+        "thumbnail": "/thumnails/Certificates/ocfa.webp"
       },
       {
         "name": "Oracle Cloud Infrastructure 2023 Certified Foundations Associate",
@@ -312,7 +312,7 @@
         "url": "https://oracle.com",
         "skills": ["Big Data", "Data Science", "Data Warehousing"],
         "logo": "/thumnails/logos/oracle_logo.svg",
-        "thumbnail": "/thumnails/Certificates/ocfa2023.png"
+        "thumbnail": "/thumnails/Certificates/ocfa2023.webp"
       },
       {
         "name": "Oracle Cloud Infrastructure 2024 Certified Foundations Associate",
@@ -322,7 +322,7 @@
         "url": "https://oracle.com",
         "skills": ["Big Data", "Big Data Analytics", "Data Warehousing"],
         "logo": "/thumnails/logos/oracle_logo.svg",
-        "thumbnail": "/thumnails/Certificates/ocfa2024.png"
+        "thumbnail": "/thumnails/Certificates/ocfa2024.webp"
       },
       {
         "name": "PwC Switzerland - Power BI Course Completion Certificate",
@@ -332,7 +332,7 @@
         "url": "https://pwc.com",
         "skills": ["Data Visualization", "Microsoft Power BI"],
         "logo": "/thumnails/logos/pwc_logo.svg",
-        "thumbnail": "/thumnails/Certificates/pwc.png"
+        "thumbnail": "/thumnails/Certificates/pwc.webp"
       },
       {
         "name": "Convolutional Neural Networks in TensorFlow",
@@ -341,8 +341,8 @@
         "credential_id": "9CRR8MJRKME6",
         "url": "https://coursera.org",
         "skills": ["Convolutional Neural Networks", "Image Classification", "Transfer Learning"],
-        "logo": "/thumnails/logos/deeplearningai_logo.png",
-        "thumbnail": "/thumnails/Certificates/tensorflow.png"
+        "logo": "/thumnails/logos/deeplearningai_logo.webp",
+        "thumbnail": "/thumnails/Certificates/tensorflow.webp"
       },
       {
         "name": "LinkedIn Certified Marketing Insider",
@@ -352,7 +352,7 @@
         "url": "https://linkedin.com",
         "skills": ["Marketing", "Social Media Marketing", "Digital Marketing", "Market Analysis"],
         "logo": "/thumnails/logos/linkedin_logo.svg",
-        "thumbnail": "/thumnails/Certificates/cmf.png"
+        "thumbnail": "/thumnails/Certificates/cmf.webp"
       },
       {
         "name": "LinkedIn Content and Creative Design",
@@ -362,7 +362,7 @@
         "url": "https://linkedin.com",
         "skills": ["Content Creation", "Creative Design"],
         "logo": "/thumnails/logos/linkedin_logo.svg",
-        "thumbnail": "/thumnails/Certificates/lccd.png"
+        "thumbnail": "/thumnails/Certificates/lccd.webp"
       },
       {
         "name": "LinkedIn Marketing Solutions Fundamentals",
@@ -372,7 +372,7 @@
         "url": "https://linkedin.com",
         "skills": ["Marketing Solutions", "Marketing Fundamentals"],
         "logo": "/thumnails/logos/linkedin_logo.svg",
-        "thumbnail": "/thumnails/Certificates/lmf.png"
+        "thumbnail": "/thumnails/Certificates/lmf.webp"
       },
       {
         "name": "LinkedIn Marketing Strategy",
@@ -382,7 +382,7 @@
         "url": "https://linkedin.com",
         "skills": ["Marketing Strategy"],
         "logo": "/thumnails/logos/linkedin_logo.svg",
-        "thumbnail": "/thumnails/Certificates/lms.png"
+        "thumbnail": "/thumnails/Certificates/lms.webp"
       },
       {
         "name": "Build a Data Science Web App with Streamlit and Python",
@@ -392,7 +392,7 @@
         "url": "https://coursera.org",
         "skills": ["Data Science", "Plotly", "Data Visualization", "Pandas", "Streamlit", "NumPy", "Pydeck"],
         "logo": "/thumnails/logos/coursera_logo.svg",
-        "thumbnail": "/thumnails/Certificates/coursera_streamlit.png"
+        "thumbnail": "/thumnails/Certificates/coursera_streamlit.webp"
       },
       {
         "name": "Machine Learning with Python",
@@ -401,7 +401,7 @@
         "url": "https://coursera.org",
         "skills": ["Data Science", "Scikit-Learn", "Linear Regression", "Classification", "SciPy", "Machine Learning", "Clustering"],
         "logo": "/thumnails/logos/coursera_logo.svg",
-        "thumbnail": "/thumnails/Certificates/ML_with_IBM.png"
+        "thumbnail": "/thumnails/Certificates/ML_with_IBM.webp"
       },
       {
         "name": "Tata Virtual Internship Program: Data Visualization: Empowering Business with Effective Insights",
@@ -411,7 +411,7 @@
         "url": "https://tatatechnologies.com",
         "skills": ["Data Visualization", "Tableau", "Data Analysis", "Statistical Data Analysis", "Analytical Skills", "Data Mining", "Microsoft Power BI"],
         "logo": "/thumnails/logos/tata_logo.svg",
-        "thumbnail": "/thumnails/Certificates/TCS.png"
+        "thumbnail": "/thumnails/Certificates/TCS.webp"
       },
       {
         "name": "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
@@ -420,8 +420,8 @@
         "credential_id": "M8LX58P5LC8G",
         "url": "https://coursera.org",
         "skills": ["Data Engineering", "Deep Learning", "Data Science", "SciPy", "Scikit-Learn", "Artificial Intelligence (AI)", "Machine Learning", "NumPy", "Data Mining", "PySpark"],
-        "logo": "/thumnails/logos/deeplearningai_logo.png",
-        "thumbnail": "/thumnails/Certificates/DL_DLAI.jpeg"
+        "logo": "/thumnails/logos/deeplearningai_logo.webp",
+        "thumbnail": "/thumnails/Certificates/DL_DLAI.webp"
       },
       {
         "name": "JPMorgan Chase & Co Virtual Internship Program",
@@ -431,7 +431,7 @@
         "url": "https://jpmorganchase.com",
         "skills": ["Data Analysis", "Data Visualization"],
         "logo": "/thumnails/logos/jpmorgan_logo.svg",
-        "thumbnail": "/thumnails/Certificates/jpmorgan.png"
+        "thumbnail": "/thumnails/Certificates/jpmorgan.webp"
       }
   ],
   "languages": [
