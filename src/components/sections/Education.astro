@@ -48,7 +48,7 @@ function closeModal() {
 
   {certificates.length > 0 && (
     <>
-      <h1 class="print:hidden">Certificates</h1>
+      <h3 class="print:hidden">Certificates</h3>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-3 print:hidden">
         {certificates.map(({ name, date, issuer, url, logo, skills, thumbnail }) => {
           const certificateYear = new Date(date).getFullYear();
