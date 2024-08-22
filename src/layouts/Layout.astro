@@ -43,61 +43,58 @@ const { image, summary, url, theme } = basics;
 		<link rel="stylesheet" href="/themes/themes.css" />
 		<Schema
 			item={{
-				"@context": "https://schema.org",
-				"@type": "Person",
-				name: "Neelanjan Chakraborty",
-				alternateName: "Neel",
-				jobTitle: "Junior Full Stack Developer",
-				image: "https://neelanjanchakraborty.in/thumnails/avatar.webp",
-				email: "neelanjanchakraborty231@gmail.com",
-				telephone: "+91 8617352997",
-				url: "https://neelanjanchakraborty.in/",
-				address: {
-					"@type": "PostalAddress",
-					streetAddress: "Kharagpur",
-					addressLocality: "Kharagpur",
-					addressRegion: "West Bengal",
-					postalCode: "721301",
-					addressCountry: "IN",
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Neelanjan Chakraborty",
+			"additionalName": "BABAI",
+			"givenName": "Neelanjan",
+			"familyName": "Chakraborty",
+			"jobTitle": "Junior Full Stack Developer",
+			"worksFor": {
+				"@type": "Organization",
+				"name": "HYSCALER"
+			},
+			"alumniOf": {
+				"@type": "EducationalOrganization",
+				"name": "CENTURION UNIVERSITY OF TECHNOLOGY AND MANAGEMENT"
+			},
+			"knowsAbout": [
+				"Machine Learning",
+				"Data Science",
+				"Full Stack Development"
+			],
+			"url": "https://neelanjanchakraborty.in",
+			"sameAs": [
+				"https://www.linkedin.com/in/neelanjan-chakraborty",
+				"https://github.com/neelanjanchakraborty",
+				"https://twitter.com/neelanjanc"
+			],
+			"nationality": "Indian",
+			"gender": "Male",
+			"hasCredential": [
+				{
+				"@type": "EducationalOccupationalCredential",
+				"credentialCategory": "Certificate",
+				"educationalLevel": "Professional Certification",
+				"name": "Hitachi Vantara Data Analyst Certification",
+				"issuer": {
+					"@type": "Organization",
+					"name": "Hitachi Vantara"
+				}
 				},
-				alumniOf: {
-					"@type": "CollegeOrUniversity",
-					name: "Centurion University of Technology and Management",
-					sameAs: "https://cutm.ac.in",
-				},
-				knowsAbout: [
-					"Machine Learning",
-					"Data Science",
-					"Full Stack Development",
-					"NLP",
-					"Generative AI",
-					"AWS",
-					"Unreal Engine"
-				],
-				worksFor: [
-					{
-						"@type": "Organization",
-						name: "GRACYWOODS GAMES",
-						sameAs: "https://www.gracywoodsgames.com/",
-						jobTitle: "Generative AI Intern + 3D Character Animator",
-						startDate: "2024-03-01",
-						endDate: "2024-07-01",
-					},
-					{
-						"@type": "Organization",
-						name: "HYSCALER",
-						sameAs: "https://hyscaler.com",
-						jobTitle: "Junior Software Developer",
-						startDate: "2023-09-01",
-						endDate: "2024-06-01",
-					}
-				],
-				sameAs: [
-					"https://linkedin.com/in/neelanjanchakraborty",
-					"https://x.com/neelanjanchakraborty",
-					"https://github.com/Neelanjan-chakraborty"
-				]
-			}}
+				{
+				"@type": "EducationalOccupationalCredential",
+				"credentialCategory": "Certificate",
+				"educationalLevel": "Professional Certification",
+				"name": "Google Machine Learning Certificates",
+				"issuer": {
+					"@type": "Organization",
+					"name": "Google"
+				}
+				}
+			]
+			}
+			}
 		/>
 		<SEO
   title="Neelanjan Chakraborty | Junior Full Stack Developer"
