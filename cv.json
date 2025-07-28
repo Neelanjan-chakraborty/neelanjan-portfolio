@@ -36,6 +36,80 @@
   },
   "work": [
     {
+      "name": "VirtualTx",
+      "position": "Data Scientist",
+      "location_type": "Remote",
+      "location": "Willow Grove, Pennsylvania, United States",
+      "url": "https://virtualtx.ai/",
+      "startDate": "2025-04-01",
+      "endDate": null,
+      "summary": "Experienced in building NLP models for speech-to-text and conversational AI, with expertise in fine-tuning transformers for sentiment and intent recognition.",
+      "highlights": [
+        "Built NLP models for speech-to-text and conversational AI applications",
+        "Fine-tuned transformers for sentiment and intent recognition",
+        "Developed end-to-end NLP solutions using Python, Hugging Face, and PyTorch"
+      ],
+      "responsibilities": [
+        "Skilled in developing data pipelines and annotation tools for NLP applications",
+        "Deployed end-to-end NLP solutions using Python, Hugging Face, and PyTorch",
+        "Actively involved in advancing research in speech and language understanding"
+      ],
+      "skills": [
+        "Artificial Intelligence (AI)",
+        "Analytical Skills",
+        "Big Data Analytics",
+        "Data Science",
+        "Deep Learning",
+        "Generative AI",
+        "Large Language Models (LLM)",
+        "Machine Learning",
+        "Neuro-Linguistic Programming (NLP)",
+        "PyTorch",
+        "Python",
+        "Hugging Face"
+      ]
+    },
+    {
+      "name": "Blackcoffer",
+      "position": "Data Scientist Associate",
+      "location_type": "Remote",
+      "location": "New Delhi, Delhi, India",
+      "url": "https://blackcoffer.com",
+      "startDate": "2025-03-01",
+      "endDate": "2025-04-01",
+      "summary": "Worked as Data Scientist Associate focusing on data engineering, analytics, and machine learning solutions.",
+      "highlights": [
+        "Worked with advanced data analytics and visualization tools",
+        "Implemented ETL processes and data warehousing solutions",
+        "Applied machine learning and AI techniques for business insights"
+      ],
+      "responsibilities": [
+        "Developed data engineering pipelines and ETL processes",
+        "Created data visualizations and analytics dashboards",
+        "Applied generative AI and machine learning techniques"
+      ],
+      "skills": [
+        "n8n",
+        "Grafana",
+        "Microsoft Power BI",
+        "Looker",
+        "ETL Tools",
+        "Elastic Stack (ELK)",
+        "Neo4j",
+        "Artificial Intelligence (AI)",
+        "Big Data Analytics",
+        "Data Engineering",
+        "Data Mining",
+        "Data Modeling",
+        "Data Warehousing",
+        "Deep Learning",
+        "Generative AI",
+        "Large Language Models (LLM)",
+        "Machine Learning",
+        "Neuro-Linguistic Programming (NLP)"
+      ]
+    },
+    {
       "name": "GRACYWOODS GAMES",
       "position": "Generative AI Intern + 3D Character Animator",
       "location_type": "Remote",
@@ -90,8 +164,8 @@
       "institution": "CENTURION UNIVERSITY OF TECHNOLOGY AND MANAGEMENT",
       "url": "https://cutm.ac.in",
       "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2019-06-01",
+      "studyType": "Bachelor of Technology - BTech",
+      "startDate": "2019-01-01",
       "endDate": "2023-12-01",
       "score": "8.9/10.0",
       "courses": [
@@ -100,6 +174,125 @@
         "Database Management",
         "Algorithms",
         "Artificial Intelligence"
+      ],
+      "skills": [
+        "PySpark",
+        "Data Mining",
+        "SciPy",
+        "Scikit-Learn",
+        "Artificial Intelligence (AI)",
+        "Data Engineering",
+        "NumPy"
+      ]
+    },
+    {
+      "institution": "HIJLI SCHOOL",
+      "url": "https://hijlicollege.ac.in",
+      "area": "Science",
+      "studyType": "+2 (Higher Secondary)",
+      "startDate": "2017-03-01",
+      "endDate": "2019-11-01",
+      "score": "1st Division",
+      "description": "I completed my Higher Secondary education at Hijli High School, Kharagpur, a co-educational institution established in 1951 under the Department of Education, West Bengal. The school offers classes from VI to XII and is known for its commitment to academic excellence. During my time there, I focused on PCM+CS, achieving 1st Division. Being one of Top 7 Students in the Batch. The school provided a supportive environment with access to a library housing over 2,000 books and functional computer facilities, which enhanced my learning experience. The curriculum and faculty at Hijli High School played a significant role in preparing me for higher education, fostering a strong foundation in Time Management, Critical Thinking, Team Management, Public Speaking and Extensive R&D Opportunities in Computer Sciences.",
+      "activities": [
+        "Science Exhibitions",
+        "Essay Writing Competitions",
+        "Elocution Competitions",
+        "Public Speaking",
+        "National Cadet Corps (NCC)",
+        "Football",
+        "Badminton",
+        "Table Tennis",
+        "Carrom",
+        "Chess",
+        "Yoga",
+        "Athletics",
+        "Debate Club",
+        "Cultural Events",
+        "School Annual Day",
+        "Inter-House Competitions",
+        "Computer Club",
+        "Environmental Awareness Programs",
+        "Art and Craft Workshops",
+        "Music Club",
+        "Drama Club",
+        "Quiz Competitions",
+        "Community Service Initiatives",
+        "Leadership Training Programs",
+        "School Magazine Editorial Team",
+        "Sports Day Events"
+      ],
+      "skills": [
+        "Microsoft PowerPoint",
+        "Microsoft Office",
+        "Microsoft Word",
+        "Research and Development (R&D)",
+        "Design Research",
+        "Online Research",
+        "Critical Thinking",
+        "Problem Solving",
+        "Public Speaking",
+        "Public Speaking Training",
+        "NCC",
+        "Time Management",
+        "Team Management",
+        "Time Line Management",
+        "Organization Skills"
+      ]
+    },
+    {
+      "institution": "SPLENDOUR SCHOOL",
+      "url": "https://www.splendourschool.com/",
+      "area": "High School/Secondary Diplomas and Certificates",
+      "studyType": "Middle School Diploma (ICSE)",
+      "startDate": "2005-01-01",
+      "endDate": "2016-10-01",
+      "score": "78% (ICSE - Top 10 in batch)",
+      "description": "I completed my schooling from Class I to Class X at Splendour High School, Salua, Kharagpur, a co-educational institution established in 1987 and affiliated with the Council for the Indian School Certificate Examinations (ICSE Board). In my ICSE examinations, I secured a score of 78%, placing me among the top 10 students in my batch. Beyond academics, I actively participated in various extracurricular activities that enriched my educational journey: Morning Assembly Illustrations: Assigned to create visual illustrations, enhancing the assembly experience. Science Exhibition Organizer: Took the initiative to organize and manage the school's science exhibition, fostering scientific curiosity among peers. Computer Lab Operator: Assisted in managing the computer lab, ensuring smooth operation and aiding fellow students. Sports Day Participant: Actively participated in various events during the school's annual sports day, promoting teamwork and physical fitness.",
+      "activities": [
+        "Science Exhibitions",
+        "Essay Writing Competitions",
+        "Elocution Contests",
+        "Public Speaking",
+        "Debate Club",
+        "Art and Craft Workshops",
+        "Music Club",
+        "Dance Club",
+        "Drama Club",
+        "Quiz Competitions",
+        "Environmental Awareness Programs",
+        "Community Service Initiatives",
+        "Yoga Sessions",
+        "Football",
+        "Badminton",
+        "Table Tennis",
+        "Carrom",
+        "Chess",
+        "Athletics",
+        "Inter-House Competitions",
+        "Annual Day Celebrations",
+        "Cultural Events",
+        "Library Reading Sessions",
+        "Educational Tours",
+        "Student Council Activities",
+        "Computer Literacy",
+        "Morning Assembly Illustrations",
+        "Science Exhibition Organizer",
+        "Computer Lab Operator",
+        "Sports Day Participant"
+      ],
+      "skills": [
+        "Drawing",
+        "Figure Drawing",
+        "Hand-drawing",
+        "Speech",
+        "Speech Writing",
+        "Public Speaking",
+        "Team Management",
+        "Team Leadership",
+        "Computer Science",
+        "Science",
+        "Python (Programming Language)"
       ]
     }
   ],
@@ -177,50 +370,54 @@
   ],
   "projects": [
     {
-      "name": "VIRTUAL-TRYON",
+      "name": "INSIGHT NEXUS",
       "isActive": true,
-      "description": "A browser extension using Hugging Face API for virtual garment try-ons.",
+      "description": "Developed a Python/SQL sales forecasting model, featured on DataHub, generating an extra $50/month and saving $500K annually.",
       "highlights": [
-        "Increased customer engagement by 20%"
+        "Featured on DataHub",
+        "Generates $50/month extra revenue",
+        "Saves $500K annually"
       ],
-      "url": "https://virtualtryon.com",
-      "thumbnail": "/thumnails/tryon.webp",
-      "technologies": ["JavaScript", "Hugging Face API"]
+      "url": "https://data-eclipse-page.lovable.app/",
+      "thumbnail": "/thumnails/Insight Nexus.png",
+      "technologies": ["Python", "SQL", "Data Science", "Sales Forecasting", "Machine Learning"]
     },
     {
-      "name": "AUTOLINKED",
+      "name": "TREND SCOPE",
       "isActive": true,
-      "description": "Automated LinkedIn tasks via Gemini API, streamlining posts, comments, and connections.",
+      "description": "Automated Tableau/Power BI dashboards, saving 15hrs weekly; runner-up in AzureRift Challenge 2024.",
       "highlights": [
-        "Saved 30% in time"
+        "Saves 15 hours weekly",
+        "Runner-up in AzureRift Challenge 2024"
       ],
-      "url": "https://autolinked.com",
-      "thumbnail": "/thumnails/autolinked.webp",
-      "technologies": ["Python", "Flask", "JavaScript"]
-  
+      "url": "https://trendscope.neelanjanchakraborty.in/",
+      "thumbnail": "/thumnails/Trend Scope.png",
+      "technologies": ["Tableau", "Power BI", "Data Visualization", "Dashboard Automation", "Data Engineering"]
     },
     {
-      "name": "MOOD-MUSE",
+      "name": "CUSTO CLARITY",
       "isActive": true,
-      "description": "Developed an AI song recommendation model with Meta API, tailoring music based on mood detection.",
+      "description": "A Python clustering model identifying 5 key customer segments, leading to a major retail collaboration offer.",
       "highlights": [
-        "Enhanced user satisfaction through personalized music recommendations"
+        "Identified 5 key customer segments",
+        "Led to major retail collaboration offer"
       ],
-      "url": "https://moodmuse.com",
-      "thumbnail": "/thumnails/moodmuse.webp",
-      "technologies": ["HTML", "CSS", "JavaScript"]
-  
+      "url": "https://custoclarity.neelanjanchakraborty.in/",
+      "thumbnail": "/thumnails/Custo Clarity.png",
+      "technologies": ["Python", "Machine Learning", "Clustering", "Customer Segmentation", "Data Science"]
     },
     {
-      "name": "TOUCH-GRASS",
+      "name": "OPERATE OPTIMA",
       "isActive": true,
-      "description": "A student app using Flutter & Gemini API, optimizing study schedules.",
+      "description": "Built an Apache Spark/SQL ETL pipeline, reducing processing time by 25 minutes; adopted by 3 business units and featured on Woke AI Blog.",
       "highlights": [
-        "Enhanced efficiency by 20%"
+        "Reduced processing time by 25 minutes",
+        "Adopted by 3 business units",
+        "Featured on Woke AI Blog"
       ],
-      "url": "https://touchgrass.com",
-      "thumbnail": "/thumnails/touchgrass.webp",
-      "technologies": ["Flutter", "Dart"]
+      "url": "https://operateoptima.neelanjanchakraborty.in/",
+      "thumbnail": "/thumnails/Operate Optima.png",
+      "technologies": ["Apache Spark", "SQL", "ETL Pipeline", "Data Engineering", "Big Data"]
     }
   ],
     "certificates": [
@@ -491,6 +688,88 @@
         "Fitness",
         "Endurance"
       ]
+    }
+  ],
+  "recommendations": [
+    {
+      "name": "Amiya Singh",
+      "position": "Education & Reforms",
+      "relationship": "Mentor",
+      "date": "2025-05-16",
+      "text": "During my mentoring to Neel for Skill Competition, I have found him very versatile in terms of self-learning, growth, and creative pursuit. His dedication and commitment in the area of his interest has always been very admirable. He will definitely be an young asset for any organization.",
+      "linkedin": "https://linkedin.com/in/amiya-singh"
+    },
+    {
+      "name": "Izak J",
+      "position": "Creative Architect | Business Director | A.I. Enthusiast",
+      "relationship": "Manager",
+      "date": "2024-07-13",
+      "text": "Neelanjan is a rare blend of designer and developer, a fusion not commonly found in the creative landscape, yet we have had the distinct privilege of collaborating with him. His drive to innovate and harness emerging technologies, applying them within visually striking designs, distinguishes his work in the field. Neelanjan possesses the potential to play a pivotal role in the future landscape dominated by artificial intelligence and generative content. For those considering an association with this burgeoning Creative Technologist, prepare for a rewarding experience. However, a word of caution: align your pace with his. Neelanjan swiftly moves towards his objectives, often reaching his goals with a swiftness that might catch the unprepared off guard.",
+      "linkedin": "https://linkedin.com/in/izak-j"
+    },
+    {
+      "name": "Sidharth Mohanty",
+      "position": "Senior Technical Analyst | Python | React.Js | AWS",
+      "relationship": "Manager",
+      "date": "2024-06-13",
+      "text": "I had the pleasure of having Neelanjan on my team, and his skills were outstanding. As a problem solver, he consistently found innovative solutions to complex challenges. His expertise in AI model implementation and deep knowledge of machine learning algorithms significantly advanced our projects. Neelanjan excels in logic building, creating clear and robust frameworks that enhance our software solutions. His proficiency in Python is exceptional, writing efficient and maintainable code that improved our development processes. In summary, Neelanjan is a highly skilled professional in problem-solving, AI, logic building, and Python programming. I highly recommend him to any organization looking for top talent.",
+      "linkedin": "https://linkedin.com/in/sidharth-mohanty"
+    },
+    {
+      "name": "Jyotiranjan Sahoo",
+      "position": "Full Stack Developer with good knowledge in PHP|Laravel|Core Java |PHP|Laravel |Servlet|API|Jsp|jdbc|Spring|HTML|CSS|SQLyog | MySQL|Oracle | Android Development",
+      "relationship": "Colleague",
+      "date": "2024-03-18",
+      "text": "Highly recommend Neelanjan for the exceptional skills in python. With a keen eye for detail and a strong work ethic, he consistently delivers impressive results. A true team player, Neelanjan is a valuable asset to any organization. Don't hesitate to connect and collaborate!",
+      "linkedin": "https://linkedin.com/in/jyotiranjan-sahoo"
+    },
+    {
+      "name": "Soumya Ranjan Pradhan",
+      "position": "Full Stack Developer || MERN || React Native || Next js",
+      "relationship": "Manager",
+      "date": "2024-02-08",
+      "text": "I highly recommend Neelanjan for any professional endeavor. Neelanjan consistently demonstrates exceptional skills in relevant skills, coupled with a strong work ethic. Their ability to specific achievement or trait sets them apart, making them an asset to any team or project. Neelanjan's dedication to specific goals or projects showcases their commitment to excellence. Their collaborative nature and effective communication make them a pleasure to work with. Neelanjan's innovative approach to problem-solving and any additional positive attributes make them a standout professional. I am confident that Neelanjan's valuable contributions will greatly benefit any organization or project they are involved in.",
+      "linkedin": "https://linkedin.com/in/soumya-ranjan-pradhan"
+    },
+    {
+      "name": "Arnab Acharya",
+      "position": "💻 IT Support Specialist | Turning Tech Challenges into Opportunities | Driven by Passion, Powered by Precision",
+      "relationship": "Colleague",
+      "date": "2024-02-05",
+      "text": "I have had the pleasure of working closely with Neelanjan for some time and can confidently recommend them for any endeavor they pursue. He consistently demonstrates exceptional professionalism, dedication, and a strong work ethic. He is not only a valuable asset to any team but also a pleasure to work alongside. His ability to solve and analyse sets him apart, making him a reliable and trusted colleague. I have no doubt that Neelanjan will continue to excel and make significant contributions wherever he go. I highly recommend him without reservation.",
+      "linkedin": "https://linkedin.com/in/arnab-acharya"
+    },
+    {
+      "name": "Satyajit Sahoo",
+      "position": "Backend Developer skilled in Python, PHP, Laravel, JavaScript & React. Passionate about building scalable apps, clean code, and solving real-world problems.",
+      "relationship": "Colleague",
+      "date": "2024-02-01",
+      "text": "I highly recommend Neelanjan Chakraborty as a Software Developer Trainee. During our time at Hyscaler, he consistently demonstrated strong problem-solving skills and a keen ability to grasp new concepts quickly. Neelanjan's dedication, teamwork, and commitment to quality make him an asset to any software development team.",
+      "linkedin": "https://linkedin.com/in/satyajit-sahoo"
+    },
+    {
+      "name": "Chaitanya Yadav",
+      "position": "Microsoft Power BI Data Analyst Certified | AWS Community Builder | Spatial Data Specialist I at HERE Technologies with expertise in Data Analytics and AI",
+      "relationship": "Senior Colleague",
+      "date": "2023-11-06",
+      "text": "I have had the pleasure of working closely with Neelanjan Chakraborty, and I highly recommend him for his exceptional dedication and expertise. Neelanjan's strong analytical skills and attention to detail make him a valuable asset to any team. He is not only a hard worker but also a great collaborator, always willing to go the extra mile to ensure project success. I am confident that Neelanjan Chakraborty will excel in any professional endeavor he chooses to pursue.",
+      "linkedin": "https://linkedin.com/in/chaitanya-yadav"
+    },
+    {
+      "name": "Abhijit Pal",
+      "position": "Assistant Professor of CSE at SOA ITER, Bhubaneswar",
+      "relationship": "Mentor",
+      "date": "2023-08-28",
+      "text": "I'm pleased to recommend Neelanjan Chakraborty, a student I've mentored in Competitive Programming and Career Development. Neelanjan's strong problem-solving skills, dedication, and collaborative approach make him an excellent candidate. His coding proficiency and commitment to growth are impressive, and I'm confident he'll excel in his endeavors. Best regards, Abhijit Pal (Competitive Programming Professor and Carrier Mentor )",
+      "linkedin": "https://linkedin.com/in/abhijit-pal"
+    },
+    {
+      "name": "Sasmita Nayak",
+      "position": "Associate Professor at Centurion University of Technology and management",
+      "relationship": "Professor",
+      "date": "2023-06-17",
+      "text": "Neelanjan, a student of Centurion University of Technology and Management. I was teaching him BTech courses. During that time, I was impressed by his ability to connect topics covered in class with case studies. He showcased leadership outside of the classroom, obedient in class, too—effortlessly juggling a wide array of extracurriculars and social events. I'm confident that Neelanjan will have a bright future in his chosen career path of Data Science and that he'll be an asset to any employer.",
+      "linkedin": "https://linkedin.com/in/sasmita-nayak"
     }
   ]
 }

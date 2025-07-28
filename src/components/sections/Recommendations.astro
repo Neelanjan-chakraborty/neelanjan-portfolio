@@ -1,0 +1,275 @@
+---
+import Section from "../Section.astro";
+import { recommendations } from "@cv";
+import LinkedIn from "@/icons/LinkedIn.astro";
+---
+
+<Section className={Astro.props.className} title="Recommendations">
+  <div class="relative overflow-hidden">
+    <!-- Scrollable container -->
+    <div 
+      id="recommendations-container" 
+      class="flex gap-6 overflow-x-auto scroll-smooth pb-4 scrollbar-hide snap-x snap-mandatory"
+      style="scroll-behavior: smooth;"
+    >
+      {recommendations.map(({ name, position, relationship, date, text, linkedin }) => {
+        const recommendationDate = new Date(date).toLocaleDateString('en-US', { 
+          year: 'numeric', 
+          month: 'long' 
+        });
+        
+        return (
+          <div class="flex-none w-80 bg-skin-button-muted/50 rounded-lg p-4 shadow-lg border border-skin-muted hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-[1.02] snap-start">
+            <!-- Header -->
+            <div class="flex items-start justify-between mb-3">
+              <div class="flex-1">
+                <div class="flex items-center gap-2 mb-1">
+                  <h3 class="text-base font-semibold text-skin-base">{name}</h3>
+                  {linkedin && (
+                    <a 
+                      href={linkedin} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      class="text-skin-hue hover:text-skin-base transition-colors"
+                      title={`View ${name}'s LinkedIn profile`}
+                    >
+                      <LinkedIn class="w-4 h-4" />
+                    </a>
+                  )}
+                </div>
+                <p class="text-xs text-skin-muted mb-1 line-clamp-1">{position}</p>
+                <div class="flex items-center gap-2 text-xs text-skin-muted">
+                  <span class="bg-skin-hue/20 text-skin-hue px-1.5 py-0.5 rounded-full font-medium text-xs">
+                    {relationship}
+                  </span>
+                  <span>{recommendationDate}</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Recommendation text with read more functionality -->
+            <div class="recommendation-text" data-full-text={text}>
+              <blockquote class="text-sm text-skin-base leading-relaxed">
+                <p class="italic recommendation-content">
+                  "{text.length > 150 ? `${text.substring(0, 150)}...` : text}"
+                </p>
+              </blockquote>
+              
+              {text.length > 150 && (
+                <button 
+                  class="read-more-btn text-xs text-skin-hue hover:text-skin-base underline mt-2 focus:outline-none"
+                  data-state="collapsed"
+                >
+                  Read More
+                </button>
+              )}
+            </div>
+
+            <!-- Quote decoration -->
+            <div class="flex justify-end mt-2">
+              <svg class="w-6 h-6 text-skin-hue/30" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+              </svg>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+
+    <!-- Navigation buttons -->
+    <button 
+      id="scroll-left" 
+      class="absolute left-2 top-1/2 -translate-y-1/2 bg-skin-fill/80 backdrop-blur-sm hover:bg-skin-fill border border-skin-muted rounded-full p-2 shadow-lg transition-all duration-200 hover:scale-110 z-10"
+      aria-label="Scroll left"
+    >
+      <svg class="w-5 h-5 text-skin-base" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+      </svg>
+    </button>
+
+    <button 
+      id="scroll-right" 
+      class="absolute right-2 top-1/2 -translate-y-1/2 bg-skin-fill/80 backdrop-blur-sm hover:bg-skin-fill border border-skin-muted rounded-full p-2 shadow-lg transition-all duration-200 hover:scale-110 z-10"
+      aria-label="Scroll right"
+    >
+      <svg class="w-5 h-5 text-skin-base" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+      </svg>
+    </button>
+
+    <!-- Scroll indicators -->
+    <div class="flex justify-center mt-4 gap-2">
+      {recommendations.map((_, index) => (
+        <button 
+          class="scroll-indicator w-2 h-2 rounded-full bg-skin-muted/50 hover:bg-skin-hue transition-colors duration-200"
+          data-index={index}
+          aria-label={`Go to recommendation ${index + 1}`}
+        ></button>
+      ))}
+    </div>
+  </div>
+</Section>
+
+<style>
+  /* Hide scrollbar */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Line clamp utility */
+  .line-clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Active indicator */
+  .scroll-indicator.active {
+    @apply bg-skin-hue;
+  }
+
+  /* Recommendation text transitions */
+  .recommendation-content {
+    transition: all 0.3s ease-in-out;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('recommendations-container');
+    const scrollLeftBtn = document.getElementById('scroll-left');
+    const scrollRightBtn = document.getElementById('scroll-right');
+    const indicators = document.querySelectorAll('.scroll-indicator');
+    
+    if (!container || !scrollLeftBtn || !scrollRightBtn) return;
+
+    // Read More functionality
+    const readMoreBtns = document.querySelectorAll('.read-more-btn');
+    readMoreBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const recommendationText = this.closest('.recommendation-text');
+        const content = recommendationText.querySelector('.recommendation-content');
+        const fullText = recommendationText.getAttribute('data-full-text');
+        const isExpanded = this.getAttribute('data-state') === 'expanded';
+        
+        if (isExpanded) {
+          // Collapse
+          content.innerHTML = `"${fullText.substring(0, 150)}..."`;
+          this.textContent = 'Read More';
+          this.setAttribute('data-state', 'collapsed');
+        } else {
+          // Expand
+          content.innerHTML = `"${fullText}"`;
+          this.textContent = 'Read Less';
+          this.setAttribute('data-state', 'expanded');
+        }
+      });
+    });
+
+    const cardWidth = 320 + 24; // card width + gap
+    
+    // Scroll functions
+    function scrollLeft() {
+      if (container) {
+        container.scrollBy({
+          left: -cardWidth,
+          behavior: 'smooth'
+        });
+      }
+    }
+    
+    function scrollRight() {
+      if (container) {
+        container.scrollBy({
+          left: cardWidth,
+          behavior: 'smooth'
+        });
+      }
+    }
+    
+    // Update indicators
+    function updateIndicators() {
+      if (!container) return;
+      const scrollLeft = container.scrollLeft;
+      const cardIndex = Math.round(scrollLeft / cardWidth);
+      
+      indicators.forEach((indicator, index) => {
+        indicator.classList.toggle('active', index === cardIndex);
+      });
+    }
+    
+    // Event listeners
+    scrollLeftBtn.addEventListener('click', scrollLeft);
+    scrollRightBtn.addEventListener('click', scrollRight);
+    
+    // Indicator clicks
+    indicators.forEach((indicator, index) => {
+      indicator.addEventListener('click', () => {
+        if (container) {
+          container.scrollTo({
+            left: index * cardWidth,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+    
+    // Update indicators on scroll
+    container.addEventListener('scroll', updateIndicators);
+    
+    // Initialize indicators
+    updateIndicators();
+    
+    // Auto-scroll functionality (optional)
+    let autoScrollInterval: number | undefined;
+    
+    function startAutoScroll() {
+      autoScrollInterval = setInterval(() => {
+        if (!container) return;
+        const maxScroll = container.scrollWidth - container.clientWidth;
+        if (container.scrollLeft >= maxScroll) {
+          container.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+          scrollRight();
+        }
+      }, 5000); // Auto-scroll every 5 seconds
+    }
+    
+    function stopAutoScroll() {
+      if (autoScrollInterval) {
+        clearInterval(autoScrollInterval);
+      }
+    }
+    
+    // Start auto-scroll
+    startAutoScroll();
+    
+    // Pause auto-scroll on hover
+    container.addEventListener('mouseenter', stopAutoScroll);
+    container.addEventListener('mouseleave', startAutoScroll);
+    
+    // Pause auto-scroll on button interaction
+    scrollLeftBtn.addEventListener('click', () => {
+      stopAutoScroll();
+      setTimeout(startAutoScroll, 3000); // Restart after 3 seconds
+    });
+    
+    scrollRightBtn.addEventListener('click', () => {
+      stopAutoScroll();
+      setTimeout(startAutoScroll, 3000); // Restart after 3 seconds
+    });
+  });
+</script>

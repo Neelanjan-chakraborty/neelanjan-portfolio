@@ -11,6 +11,7 @@ export interface CV {
   interests: Array<Interests>;
   references: Array<References>;
   projects: Array<Projects>;
+  recommendations: Array<Recommendations>;
 }
 
 interface Basics {
@@ -140,6 +141,15 @@ interface Interests {
 interface References {
   name: string;
   reference: string;
+}
+
+interface Recommendations {
+  name: string;
+  position: string;
+  relationship: string;
+  date: DateStr;
+  text: string;
+  linkedin?: string;
 }
 
 type Highlight = Array<String>;

@@ -6,6 +6,7 @@ import Education from "@/components/sections/Education.astro";
 import Experience from "@/components/sections/Experience.astro";
 import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
+import Recommendations from "@/components/sections/Recommendations.astro";
 import Skills from "@/components/sections/Skills.astro";
 import Tail from "@/components/sections/Tail.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
@@ -26,6 +27,7 @@ const { name, label } = basics;
 			<Experience className="print:col-span-3" />
 			<Projects className="print:hidden" />
 			<Skills className="print:hidden" />
+			<Recommendations className="print:hidden" />
 			<Education className="order-first" />
 		</div>
 		<Tail />
